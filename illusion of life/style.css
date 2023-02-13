@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#sketch-container{
+  width: 100%;
+}
+
+#gui-container{
+  width: 10%;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.button{
+  background-color: transparent;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin:0 auto;
+  font-size: 16px;
+  min-width: 200px;
+/*   cursor: pointer; */
+}
+.mySliders{
+  width: 110px;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+.mySliders::-webkit-slider-runnable-track {
+  background: grey;
+  height: 1px;
+  -webkit-appearance: none;
+  cursor: pointer;
+  border-radius: 50px;
+
+}
+
+.mySliders::-webkit-slider-thumb {
+  width: 15px;
+  height: 15px;
+  background: red;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+  border-radius: 10px;
+  
+}
+
+
+
